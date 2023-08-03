@@ -23,7 +23,7 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #002e5f;
+    color: #14083d;
     position: relative;
     letter-spacing: .2rem;
 }
@@ -33,13 +33,13 @@ body{
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #002e5f;
-    border-left: .4rem solid #002e5f;
+    border-top: .4rem solid #14083d;
+    border-left: .4rem solid #14083d;
 }
 
 .faq .heading::before, .faq .heading::after{
-    border-top: .4rem solid #00bfff;
-    border-left: .4rem solid #00bfff;
+    border-top: .4rem solid #fff;
+    border-left: .4rem solid #fff;
 }
 
 .heading::before, .clients .section-header h2::before, .section-head h1::before, .testimonials .section-header h2::before, .section-head-1 h4::before{
@@ -59,7 +59,7 @@ body{
     border-radius: 5rem;
     background: white;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #14083d;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -73,7 +73,7 @@ body{
     border-radius: 5rem;
     background: white;
     border-style: groove;
-    border-color: #002e5f;
+    border-color: #14083d;
     font-size: 1.5rem;
     cursor: pointer;
     height: 3.5rem;
@@ -85,14 +85,14 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #002e5f;
+    background: #14083d;
 }
 
 .communicate .btn:hover{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #14083d;
 }
 
 .header{
@@ -132,7 +132,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #00bfff;
+    color: #14083d;
     text-decoration: underline;
 }
 
@@ -246,12 +246,22 @@ body{
     color: #333;
     padding: 1rem 0;
 }
-  .section-head{
+.section-head{
     margin-bottom: 60px;
     text-align: center;
     margin-top: -8rem;
   }
+  .section-bottom{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
   .section-head p{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .section-bottom p{
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -395,7 +405,7 @@ body{
     
   }
   .item:hover{
-    background-image: linear-gradient(to bottom right, #66ffcc 0%, #ffccff 100%);
+    background-image: linear-gradient(to top bottom, #14083d28 0%, #32149728, #14083d28 100%);
     background-position: right;
     transition: background-position 3s;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
@@ -606,11 +616,11 @@ body{
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #fff;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+    border-color: #fff;
 }
 
 .team .row{
@@ -659,7 +669,7 @@ body{
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: #00bfff;
+    color: #14083d;
 }
 
 .team .row .card .info .icons a{
@@ -702,7 +712,7 @@ body{
 }
 
 .team .row .card::before{
-    background: #00bfff;
+    background: #14083d;
     top: -3rem;
     right: -4rem;
 }
@@ -814,7 +824,7 @@ body{
             border-radius: 5rem;
             background: white;
             border-style: groove;
-            border-color: #002e5f;
+            border-color: #14083d;
             font-size: 1.5rem;
             cursor: pointer;
             height: 3.5rem;
@@ -825,7 +835,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #002e5f;
+            background: #14083d;
         }
 		.contact-form-phone
 		{
@@ -852,7 +862,7 @@ body{
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background: #14083d;
             padding: 60px 0 30px 0;
         }
         
@@ -867,7 +877,7 @@ body{
             font-size: 18px;
             display: inline-block;
             background: #ffffff;
-            color: #00bfff;
+            color: #14083d;
             line-height: 1;
             padding: 9px 0;
             margin-right: 4px;
@@ -878,7 +888,7 @@ body{
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #00bfff;
+            background: #14083d;
             color: #ffffff;
         }
         
@@ -930,7 +940,7 @@ body{
         }
         
         .footer .footer-top .footer-links ul a:hover {
-            color: #00bfff;
+            color: #14083d;
         }
         
         .footer .footer-top .footer-contact p {
@@ -960,8 +970,8 @@ body{
         
         .footer .footer-top .footer-newsletter input[type="submit"]:hover {
             color: #ffffff;
-            background: #00bfff;
-            border: 1px solid #00bfff;
+            background: #14083d;
+            border: 1px solid #14083d;
             letter-spacing: .2rem;
         }
         
@@ -989,7 +999,7 @@ body{
         .back-to-top {
             position: fixed;
             display: none;
-            background-color: #00bfff;
+            background-color: #14083d;
             color: #ffffff;
             width: 45px;
             height: 45px;
@@ -1038,7 +1048,7 @@ body{
         }
         
         .faq .row .accordion-container .accordion .accordion-header{
-            background-color: #00bfff;
+            background-color: #14083d;
             margin: 1rem 0;
             box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
             cursor: pointer;
@@ -1060,7 +1070,7 @@ body{
         
         .faq .row .accordion-container .accordion .accordion-header h3{
             display: inline;
-            color: #333;
+            color: #fff;
             font-weight: 400;
             padding-left: .5rem;
             font-size: 1.5rem;
@@ -1103,7 +1113,7 @@ body{
     }
 
     .header .fa-bars:hover{
-        color: #00bfff;
+        color: #14083d;
     }
 
     .header .navbar{
@@ -1309,7 +1319,7 @@ body{
             border-radius: 5rem;
             background: white;
             border-style: groove;
-            border-color: #002e5f;
+            border-color: #14083d;
             font-size: 1.5rem;
             cursor: pointer;
             height: 3.5rem;
@@ -1320,7 +1330,7 @@ body{
             letter-spacing: .1rem;
             opacity: .9;
             color: white;
-            background: #002e5f;
+            background: #14083d;
         }
 		.contact-form-phone
 		{
