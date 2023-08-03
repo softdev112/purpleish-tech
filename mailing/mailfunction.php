@@ -41,8 +41,10 @@ function mailfunction($mail_reciever_email, $mail_reciever_name, $mail_msg, $att
     }
     
     $mail->AltBody = 'This is a plain-text message body';
- 
-    if (!$mail->send()) {
+ 	
+  	$mail->isSendmail();
+  	$isSent = $mail->send();
+    if (!$isSent) {
         return false;
     } else {
         return true;
