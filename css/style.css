@@ -172,6 +172,11 @@ body{
     font-size: 3rem;
 }
 
+.home p{
+    color: #fff;
+    font-size: 2rem;
+}
+
 .home .wave{
     position: absolute;
     bottom: -.5rem;
