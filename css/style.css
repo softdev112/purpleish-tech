@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'AllianzWeb';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-justify: auto;
 }
 
 html{
@@ -132,7 +133,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #14083d;
+    color: #CBB26A;
     text-decoration: underline;
 }
 
@@ -240,6 +241,11 @@ body{
     font-size: 2rem;
     color: #333;
     padding: 1rem 0;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 5%;
+    text-overflow: ellipsis;
 }
 .pt-5 .container .row .section-head p{
     font-size: 2rem;
@@ -464,6 +470,7 @@ body{
     font-size: 15px;
     font-family: "Varela Round",Arial,"Helvetica Neue",Helvetica,sans-serif;
     line-height: 26px;
+    text-align: justify;
   }
   .item h6{
     margin-bottom: 20px;
@@ -489,7 +496,10 @@ body{
 }
 
 .communicate p{
-    font-size: 2rem;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .testimonials {
@@ -532,8 +542,11 @@ body{
 
 .testimonials .testimonial-text p {
     margin: 0;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: justify;
+    text-indent: 2rem;
+    text-justify: auto;
 }
 
 .testimonials .owl-nav,
@@ -940,7 +953,7 @@ body{
         }
         
         .footer .footer-top .footer-links ul a:hover {
-            color: #14083d;
+            color: #CBB26A;
         }
         
         .footer .footer-top .footer-contact p {
@@ -970,7 +983,7 @@ body{
         
         .footer .footer-top .footer-newsletter input[type="submit"]:hover {
             color: #ffffff;
-            background: #14083d;
+            background: #CBB26A;
             border: 1px solid #14083d;
             letter-spacing: .2rem;
         }

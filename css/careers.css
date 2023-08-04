@@ -55,7 +55,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #14083d;
+    color: #CBB26A;
     text-decoration: underline;
 }
 
@@ -366,7 +366,7 @@ body{
 }
 
 .footer .footer-top .footer-links ul a:hover {
-    color: #14083d;
+    color: #CBB26A;
 }
 
 .footer .footer-top .footer-contact p {
